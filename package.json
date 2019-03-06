@@ -21,13 +21,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "response-time": "2.3.2"
-  },
-  "devDependencies": {
+    "response-time": "2.3.2",
+    "webpack": "^4.29.6",
     "@moneybutton/react-money-button": "^0.21.2",
     "@zeit/next-css": "1.0.1",
     "now": "^14.0.3",
-    "react-marked-markdown": "1.4.6",
-    "webpack": "^4.29.6"
+    "react-marked-markdown": "1.4.6"
   }
 }
