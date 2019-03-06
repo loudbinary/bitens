@@ -1,4 +1,5 @@
 require('dotenv').config()
+require('envkey')
 const express = require('express')
 const next = require('next')
 const responseTime = require('response-time')
@@ -25,7 +26,7 @@ async function start () {
     if (err) {
       throw err
     }
-    console.log(`> Ready on http://localhost:${WEB_PORT}`)
+    console.log(`> Ready on https://${HOST}:${WEB_PORT}`)
   })
 }
 
