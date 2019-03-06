@@ -1,0 +1,32 @@
+{
+  "name": "markdown-paywall-web",
+  "version": "0.1.0",
+  "description": "Markdown Paywall Web Application.",
+  "main": "index.js",
+  "repository": "https://github.com/moneybutton/yours",
+  "author": "Yours Inc.",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "next": "^8.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "response-time": "2.3.2"
+  },
+  "devDependencies": {
+    "@moneybutton/react-money-button": "^0.21.2",
+    "@zeit/next-css": "1.0.1",
+    "now": "^14.0.3",
+    "react-marked-markdown": "1.4.6",
+    "webpack": "^4.29.6"
+  }
+}
